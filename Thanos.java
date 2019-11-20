@@ -26,7 +26,7 @@ public class Thanos {
     	       return hero2.getAge() - hero1.getAge();
     	    }
     	};
-
+        Collections.sort(heroes, comparator);
         System.out.println("\nOrder by age:");
         showList(heroes);
     }
